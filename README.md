@@ -17,7 +17,7 @@
 `}`
 
 
-# Example
+## Example
 
 ```js
   const BUFFER_SIZE = 2048;
