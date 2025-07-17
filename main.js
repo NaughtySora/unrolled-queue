@@ -48,8 +48,8 @@ class UnrolledQueue {
   #tail = null;
 
   constructor(size) {
-    if ((size | 0) < 0) {
-      throw new Error("Buffer size has to be greater than zero");
+    if ((size | 0) <= 0) {
+      throw new RangeError("Buffer size has to be greater than zero");
     }
     this.#size = size;
     const node = new RingBuffer(size);
