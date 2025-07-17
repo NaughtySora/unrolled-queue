@@ -1,0 +1,30 @@
+{
+  "name": "unrolled-queue",
+  "version": "0.0.1",
+  "author": "NaughtySora <naughtysora@proton.me>",
+  "license": "MIT",
+  "description": "JS Unrolled Queue",
+  "readMeFilename": "README.md",
+  "main": "main.js",
+  "types": "main.d.ts",
+  "files": [
+    "main.d.ts"
+  ],
+  "keywords": [
+    "queue",
+    "node",
+    "js",
+    "unrolled queue"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaughtySora/unrolled-queue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NaughtySora/unrolled-queue/issues",
+    "email": "naughtysora@proton.me"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
